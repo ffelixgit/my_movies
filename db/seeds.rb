@@ -6,6 +6,12 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Actor.create!(name: "Angelina Jolie" )
+Actor.create!(name: "Angelina Jolie" )
+Actor.create!(name: "Angelina Jolie" )
+Director.create!(name: "Quantim Tarantino")
+Director.create!(name: "Mel Gibson")
+
 movies = [
 
 {title: "Alladin", release_date: '25-Nov-1992'},
